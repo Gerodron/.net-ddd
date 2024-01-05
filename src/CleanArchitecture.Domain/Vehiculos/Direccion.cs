@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CleanArchitecture.Domain.vehiculos
+{
+    public record Direccion(
+        string Calle,
+        string Departamento,
+        string Provincia,
+        string Ciudad,
+        string Pais
+        );
+
+    
+}
